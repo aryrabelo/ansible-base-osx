@@ -1,0 +1,14 @@
+---
+- name: checkout dotfiles repo
+  git: repo=git@github.com:jparkrr/dotfiles.git
+       version=master
+       dest=/Users/justin/dotfiles
+
+- name: symlink dotfiles
+  file: src=/Users/justin/dotfiles/{{ item }}
+        dest=/Users/justin/{{ item }}
+        state=link owner=justin force=true
+  with_items:
+    - .bash_profile
+    - .bashrc
+    - .inputrc
