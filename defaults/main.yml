@@ -7,84 +7,26 @@ base_osx:
     # taps --------------------------------------------------------- {{{
     taps:
       - homebrew/dupes
-      - homebrew/science
-      - homebrew/versions
-      - nviennot/tmate
       - phinze/cask
     # /taps -------------------------------------------------------- }}}
 
     # packages ----------------------------------------------------- {{{
     packages:
       - ansible
-      - aspell
-      - bitlbee
       - brew-cask
-      - chromedriver
-      - cloc
-      - contacts
-      - coreutils
-      - cowsay
-      - csshx
-      - ctags
-      - ec2-api-tools
-      - elasticsearch
-      - elixir
-      - erlang
-      - exiftool
-      - fdupes
       - figlet
-      - fish
       - fortune
-      - geoip
       - git
-      - gnu-sed
       - go
-      - graphviz
-      - haskell-platform
       - htop-osx
-      - imagemagick
-      - irssi
-      - john
       - jq
-      - leiningen
-      - libgit2
       - macvim
-      - mariadb
-      - mongodb
-      - mpc
-      - mpd
-      - msmtp
-      - mtr
-      - mutt
-      - ncdu
-      - nginx
       - nmap
       - node
-      - notmuch
-      - offline-imap
-      - postgresql
-      - pypy
-      - rabbitmq
-      - reattach-to-user-namespace
-      - rebar
-      - rethinkdb
       - ruby
-      - selenium-server-standalone
-      - sqlite
-      - task
-      - the_silver_searcher
-      - tmate
       - tmux
-      - urlview
       - vim
-      - vimpager
-      - vnstat
-      - watchman
       - wget
-      - wireshark
-      - xapian
-      - zeromq
-      - zsh
     # /packages ---------------------------------------------------- }}}
 
     # casks -------------------------------------------------------- {{{
@@ -92,12 +34,8 @@ base_osx:
       - alfred
       - bartender
       - caffeine
-      - charles
       - iterm2
-      # - dropbox
-      # - little-snitch
-      # - size-up
-      # - virtualbox
+      - virtualbox
     # /casks ------------------------------------------------------- }}}
 
   # /common --------------------------------------------------------------- }}}
@@ -108,26 +46,10 @@ base_osx:
     requirements:
       - Fabric
       - Flask
-      - Jinja2
-      - SQLAlchemy
-      - Sphinx
-      - Werkzeug
-      - boto
-      - bpython
-      - dulwich
-      - flake8
-      - hieroglyph
       - httpie
-      - mercurial
       - passlib
       - pip-tools
-      - psdash
-      - psutil
-      - pythong
       - requests
-      - see
-      - six
-      - uWSGI
       - virtualenv
       - virtualenvwrapper
     # /requirements ------------------------------------------------ }}}
