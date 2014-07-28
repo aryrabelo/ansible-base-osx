@@ -20,4 +20,4 @@ if [[ ! -x /usr/local/bin/ansible ]]; then
 fi
 
 # Provision the box
-ansible-playbook --ask-sudo-pass -i inventories/osx site.yml --connection=local
+ansible-playbook --ask-sudo-pass -i inventory site.yml --connection=local
