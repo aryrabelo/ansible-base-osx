@@ -33,6 +33,7 @@ base_osx:
     casks:
       - alfred
       - bartender
+      - bettertouchtool
       - caffeine
       - iterm2
       - virtualbox
