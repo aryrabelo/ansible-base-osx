@@ -1,0 +1,6 @@
+# file: base_osx.yml
+
+---
+- hosts: base_osx
+  roles:
+    - base_osx
