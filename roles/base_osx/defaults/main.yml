@@ -8,6 +8,7 @@ base_osx:
     taps:
       - homebrew/dupes
       - phinze/cask
+      - caskroom/versions
     # /taps -------------------------------------------------------- }}}
 
     # packages ----------------------------------------------------- {{{
@@ -20,7 +21,6 @@ base_osx:
       - go
       - htop-osx
       - jq
-      - macvim
       - nmap
       - node
       - ruby
@@ -35,8 +35,14 @@ base_osx:
       - bartender
       - bettertouchtool
       - caffeine
+      - flux
       - iterm2
+      - menumeters
+      - spideroak
+      - sublime-text3
+      - transmission
       - virtualbox
+      - viscosity
     # /casks ------------------------------------------------------- }}}
 
   # /common --------------------------------------------------------------- }}}

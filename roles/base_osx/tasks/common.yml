@@ -9,7 +9,7 @@
   with_items: base_osx.common.taps
 
 - name: common | brew update 2
-  homebrew: update_homebrew=yes upgrade_all=yes
+  homebrew: update_homebrew=yes
 
 - name: common | brew install base_osx.common.packages
   homebrew: name={{ item }} state=upgraded

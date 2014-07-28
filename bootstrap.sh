@@ -14,6 +14,12 @@ if [[ ! -x /usr/local/bin/brew ]]; then
     ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 fi
 
+# Download and install python
+if [[ ! -x /usr/local/bin/python ]]; then
+    echo "Info   | Install   | python"
+    brew install python --framework --with-brewed-openssl
+fi
+
 # Download and install Ansible
 if [[ ! -x /usr/local/bin/ansible ]]; then
     brew install ansible
