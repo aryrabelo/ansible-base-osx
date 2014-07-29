@@ -37,7 +37,9 @@ base_osx:
       - bettertouchtool
       - caffeine
       - flux
+      - git-annex
       - iterm2
+      - linein
       - menumeters
       - rdio
       - spideroak
