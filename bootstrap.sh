@@ -2,6 +2,10 @@
 
 set -e
 
+SRC_DIRECTORY="$HOME/src"
+SITES_DIRECTORY="$HOME/Sites"
+INSTALL_DIRECTORY="$SRC_DIRECTORY/base_osx"
+
 # Download and install Command Line Tools
 if [[ ! -x /usr/bin/gcc ]]; then
     echo "Info   | Install   | xcode"
@@ -30,5 +34,20 @@ if [[ ! -x /usr/local/bin/ansible ]]; then
     brew install ansible
 fi
 
+# Download and install git
+if [[ ! -x /usr/local/bin/git ]]; then
+    echo "Info   | Install   | git"
+    brew install git
+fi
+
+# Make the code directory
+mkdir -p $SITES_DIRECTORY
+mkdir -p $SRC_DIRECTORY
+
+# Clone down ansible
+if [[ ! -d $SRC_DIRECTORY ]]; then
+    git clone git@github.com:aryrabelo/ansible-base-osx.git $INSTALL_DIRECTORY
+fi
+
 # Provision the box
-ansible-playbook --ask-sudo-pass -i inventory site.yml --connection=local
+ansible-playbook --ask-sudo-pass -i $INSTALL_DIRECTORY/inventory $INSTALL_DIRECTORY/site.yml --connection=local
