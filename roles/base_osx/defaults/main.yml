@@ -37,16 +37,27 @@ base_osx:
       - bettertouchtool
       - caffeine
       - flux
-      - git-annex
       - iterm2
-      - linein
       - menumeters
-      - rdio
-      - spideroak
+      - fission
+      - google-chrome
       - sublime-text3
       - transmission
       - virtualbox
       - viscosity
+      - evernote 
+      - google-chrome 
+      - sparrow 
+      - dash
+      - skype
+      - vlc 
+      - picasa 
+      - spotify 
+      - dropbox 
+      - utorrent 
+      - skitch 
+      - growlnotify 
+      - the-unarchiver
     # /casks ------------------------------------------------------- }}}
 
   # /common --------------------------------------------------------------- }}}
@@ -63,5 +74,6 @@ base_osx:
       - requests
       - virtualenv
       - virtualenvwrapper
+      - boto
     # /requirements ------------------------------------------------ }}}
   # /python_packages ------------------------------------------------------ }}}
