@@ -50,5 +50,11 @@ if [[ ! -f $INSTALL_DIRECTORY/site.yml ]]; then
     git clone https://github.com/aryrabelo/ansible-base-osx.git $INSTALL_DIRECTORY
 fi
 
+if [[ ! -d ~/.rvm ]]; then
+    \curl -sSL https://get.rvm.io | bash -s stable
+    source ~/.rvm/scripts/rvm
+fi    
+    
+
 # Provision the box
 ansible-playbook --ask-sudo-pass -i $INSTALL_DIRECTORY/inventory $INSTALL_DIRECTORY/site.yml --connection=local
