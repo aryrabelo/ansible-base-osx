@@ -1,0 +1,6 @@
+---
+- name: Generate ssh key
+  shell: ssh-keygen -t rsa
+
+- name: Install Github API GEM
+  gem: name=github_api state=latest
