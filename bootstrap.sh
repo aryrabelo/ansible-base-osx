@@ -14,6 +14,11 @@ if [[ ! -x /usr/local/bin/brew ]]; then
     ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 fi
 
+
+# Modify the PATH
+export PATH=/usr/local/bin:$PATH
+
+
 # Download and install python
 if [[ ! -x /usr/local/bin/python ]]; then
     echo "Info   | Install   | python"
