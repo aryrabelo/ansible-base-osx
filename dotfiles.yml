@@ -3,6 +3,6 @@
 ---
 - hosts: dotfiles
   sudo: yes
-  sudo_user: justin
+  sudo_user: aryrabelo
   roles:
     - dotfiles
