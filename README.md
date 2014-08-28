@@ -8,6 +8,9 @@ Requirements
 
 None.
 
+## Install
+`$ curl https://raw.github.com/aryrabelo/ansible-base-osx/master/bootstrap.sh | bash`
+
 Dependencies
 ------------
 
