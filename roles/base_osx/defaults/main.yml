@@ -19,13 +19,7 @@ base_osx:
       - fortune
       - git
       - go
-      - htop-osx
-      - jq
-      - mosh
-      - nmap
-      - node
       - ruby
-      - tmux
       - vim
       - wget
     # /packages ---------------------------------------------------- }}}
