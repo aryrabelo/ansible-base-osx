@@ -48,6 +48,10 @@ mkdir -p $INSTALL_DIRECTORY
 # Clone down ansible
 if [[ ! -f $INSTALL_DIRECTORY/site.yml ]]; then
     git clone https://github.com/aryrabelo/ansible-base-osx.git $INSTALL_DIRECTORY
+    
+else
+    cd $INSTALL_DIRECTORY
+    git pull origin master
 fi
 
 if [[ ! -d ~/.rvm ]]; then
