@@ -46,8 +46,8 @@ mkdir -p $SRC_DIRECTORY
 mkdir -p $INSTALL_DIRECTORY
 
 # Clone down ansible
-if [[ ! -d $INSTALL_DIRECTORY ]]; then
-    git clone git@github.com:aryrabelo/ansible-base-osx.git $INSTALL_DIRECTORY
+if [[ ! -f $INSTALL_DIRECTORY/site.yml ]]; then
+    git clone https://github.com/aryrabelo/ansible-base-osx.git $INSTALL_DIRECTORY
 fi
 
 # Provision the box
