@@ -19,9 +19,12 @@ base_osx:
       - fortune
       - git
       - go
-      - ruby
       - vim
       - wget
+      - postgres
+      - memcached
+      - redis
+      
     # /packages ---------------------------------------------------- }}}
 
     # casks -------------------------------------------------------- {{{
