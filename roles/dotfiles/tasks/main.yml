@@ -2,12 +2,12 @@
 - name: checkout dotfiles repo
   git: repo=git@github.com:jparkrr/dotfiles.git
        version=master
-       dest=/Users/justin/dotfiles
+       dest=/Users/aryrabelo/dotfiles
 
 - name: symlink dotfiles
-  file: src=/Users/justin/dotfiles/{{ item }}
-        dest=/Users/justin/{{ item }}
-        state=link owner=justin force=true
+  file: src=/Users/aryrabelo/dotfiles/{{ item }}
+        dest=/Users/aryrabelo/{{ item }}
+        state=link owner=aryrabelo force=true
   with_items:
     - .bash_profile
     - .bashrc
