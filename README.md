@@ -11,7 +11,7 @@ None.
 ## Install
 ```
 curl -O https://raw.githubusercontent.com/aryrabelo/ansible-base-osx/master/bootstrap.sh
-chown 775 bootstrap.sh
+chmod 775 bootstrap.sh
 ./bootstrap.sh
 ```
 Dependencies
