@@ -3,3 +3,4 @@
 ---
 - include: common.yml
 - include: python_packages.yml
+- include: github.yml
