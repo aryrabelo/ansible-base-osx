@@ -36,6 +36,12 @@ systemsetup -setrestartfreeze on
 # Check for software updates daily, not just once per week
 defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 
+mkdir ~/Pictures/Screenshot
+
+defaults write com.apple.screencapture location ~/Pictures/Screenshot
+
+
+
 ###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
 ###############################################################################
