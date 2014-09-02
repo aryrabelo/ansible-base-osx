@@ -29,12 +29,9 @@ base_osx:
 
     # casks -------------------------------------------------------- {{{
     casks:
-      - alfred
-      - bartender
       - bettertouchtool
       - caffeine
       - flux
-      - iterm2
       - menumeters
       - fission
       - google-chrome
@@ -43,7 +40,6 @@ base_osx:
       - virtualbox
       - viscosity
       - evernote 
-      - google-chrome 
       - sparrow 
       - dash
       - skype
@@ -56,6 +52,7 @@ base_osx:
       - growlnotify 
       - the-unarchiver
       - daisydisk
+      - vagrant
     # /casks ------------------------------------------------------- }}}
 
   # /common --------------------------------------------------------------- }}}
