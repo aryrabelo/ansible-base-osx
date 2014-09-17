@@ -59,6 +59,11 @@ if [[ ! -d ~/.rvm ]]; then
     \curl -sSL https://get.rvm.io | bash -s stable
     source ~/.rvm/scripts/rvm
 fi    
+
+# Create Sites Dir
+if [[ ! -d ~/Sites ]]; then
+    mkdir ~/Sites
+fi  
     
 
 # Provision the box
