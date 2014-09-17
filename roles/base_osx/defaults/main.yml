@@ -44,7 +44,7 @@ base_osx:
       - picasa 
       - spotify 
       - dropbox 
-      - utorrent 
+      - qbittorrent 
       - skitch 
       - growlnotify 
       - the-unarchiver
