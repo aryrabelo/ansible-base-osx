@@ -54,6 +54,7 @@ else
     git pull origin master
 fi
 
+#Install RVM
 if [[ ! -d ~/.rvm ]]; then
     \curl -sSL https://get.rvm.io | bash -s stable
     source ~/.rvm/scripts/rvm
