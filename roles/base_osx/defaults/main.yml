@@ -31,16 +31,13 @@ base_osx:
     casks:
       - bettertouchtool
       - caffeine
-      - flux
       - menumeters
-      - fission
       - google-chrome
       - sublime-text3
       - transmission
       - virtualbox
-      - viscosity
       - evernote 
-      - sparrow 
+      - mailbox
       - dash
       - skype
       - vlc 
@@ -53,6 +50,11 @@ base_osx:
       - the-unarchiver
       - daisydisk
       - vagrant
+      - quickcast
+      - msecure
+      - keynote
+      - pages
+      
     # /casks ------------------------------------------------------- }}}
 
   # /common --------------------------------------------------------------- }}}
